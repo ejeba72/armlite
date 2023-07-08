@@ -1,0 +1,6 @@
+; indexed addressing ==> [r0 + r1]
+      mov r0, #.PixelScreen
+      mov r1, #0
+      mov r2, #.red
+      str r2,[r0+r1]
+      halt

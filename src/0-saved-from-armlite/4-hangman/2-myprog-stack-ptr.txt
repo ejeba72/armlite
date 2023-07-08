@@ -1,0 +1,4 @@
+; Experimenting to confirm the starting point of the Stack Pointer.
+      mov r0, #1
+      sub sp, sp, #1
+      halt

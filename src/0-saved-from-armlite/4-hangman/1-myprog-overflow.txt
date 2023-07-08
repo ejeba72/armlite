@@ -1,0 +1,9 @@
+; 1837 mon may8 2023
+      mov r0, #0xfffffffd
+      adds r1, r0, #1
+      adds r1, r1, #1
+      adds r1, r1, #1
+      adds r1, r1, #1
+      adds r1, r1, #1
+      adds r1, r1, #1
+      halt

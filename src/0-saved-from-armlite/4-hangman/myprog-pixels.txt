@@ -1,0 +1,9 @@
+; 1730hr thu may11 2023
+      mov r0, #.green
+      str r0, .Pixel0
+      str r0, .Pixel45
+      mov r1, #0x000000
+      str r1, .Pixel44
+      str r1, .Pixel40
+      str r1, .Pixel4
+      halt

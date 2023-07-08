@@ -1,0 +1,4 @@
+      mov r0, #hello
+      str r0, .WriteString
+      halt
+hello: .asciz '\nhello, world\n'
