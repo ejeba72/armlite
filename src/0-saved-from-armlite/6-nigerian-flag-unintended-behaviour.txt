@@ -1,0 +1,25 @@
+      mov r0, #.green   // color for the 1st section
+      mov r1, #.PixelScreen
+      mov r5, #0        // section counter initialized to zero
+      mov r2, #2848     // 1st starting point
+      add r4, r2, #6144 // section_height (32 linesOfPixels * 192 bits per lineOfPixels)
+nextLine: add r3, r2, #64 // section_width (16 pixels * 4 bits per pixel)
+nextPixel: str r0, [r1+r2]
+      add r2, r2, #4    // location of next pixel
+      cmp r2, r3        // compare to see if a lineOfPixels has been completed
+      blt nextPixel
+      add r2, r2, #192  // start of a new line of pixels
+      cmp r2, r4        // compare to see if a sectionOfPixels has been completed
+      blt nextLine
+      add r5, r5, #1
+      cmp r5, #2
+      bgt endProg
+      beq thirdSection
+      blt secondSection
+secondSection: mov r0, #.white
+      mov r2, #2816
+      b nextLine
+thirdSection: mov r0, #.green
+      mov r2, #2784
+      b nextLine
+endProg: halt
