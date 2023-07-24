@@ -275,7 +275,6 @@ endProg: halt
 
 /*
 10TH ITERATION [ EFFICIENCY, NIGERIA FLAG PROPER, OFFSET ]:
-- STOP ALL THIS TOO MANY GEOMETRIC CALCULATIONS!!! All you need to know are the starting points of each section. And the number of horizontal lines of pixels you wish to have. Then use an incrementer and compare operators to determine the number of lines you wish to color.
 - FLAG_WIDTH == 48 pixels
 - FLAG_HEIGHT == 32 pixels
 - NUMBER_OF_SECTIONS == 3  (green-white-green)
