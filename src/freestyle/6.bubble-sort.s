@@ -8,8 +8,9 @@
 // when every number has been compared, if at least one swap occurred during the present stage of comparing all the numbers, another stage of comparing all the numbers will occur. More and more stages will occur until a stage is reached when no single swap occured in the entire process of comparing all the numbers in the array. When this stage is reached, the entire array would be guaranteed to be sorted.
 
 // PURPOSE OF REGISTERS
-// r1 - base address of present number. Present number is the number presently been compared with the next successive number
-// r2 - base address of successive number. Successive number is the next successive number
+// r0 - base address of present number. Present number is the number presently been compared with the next successive number
+// r1 - base address of successive number. Successive number is the next successive number
+// r2 - maximum index address of both present number and successive number
 // r3 - index address of both present number and successive number
 // r4 - present number is loaded into r4
 // r5 - successive number is loaded into r5
