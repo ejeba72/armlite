@@ -1,3 +1,6 @@
+BINARY SEARCH
+Replica from the ARMlite book
+
 // Define registers
   //R0 Target value
   //R1 Pointer to first data item

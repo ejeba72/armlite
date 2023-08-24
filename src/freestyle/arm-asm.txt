@@ -1,0 +1,7 @@
+2023.aug.22 tue 1937mf
+
+The following are what I have learnt about arm assembly using armlite book, manual and simulator (little man computer):
+  - A number or string is a memory address.
+  - A number or string is an immediate value when the hash symbol is prepended to it.
+  - A memory address cannot be used with a mov instruction.
+  - An immediate value cannot be used with a ldr or str instruction.
