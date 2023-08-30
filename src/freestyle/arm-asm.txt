@@ -1,7 +1,8 @@
 2023.aug.22 tue 1937mf
-
 The following are what I have learnt about arm assembly using armlite book, manual and simulator (little man computer):
   - A number or string is a memory address.
   - A number or string is an immediate value when the hash symbol is prepended to it.
   - A memory address cannot be used with a mov instruction.
   - An immediate value cannot be used with a ldr or str instruction.
+2023.aug.28 mon 1143mf
+  - The value in the SP (stack pointer) register typically indicates the next address to pop, just as the PC (program counter) register indicates the next address to execute instruction. So, I wonder the mechanism behind pushing to stack.
