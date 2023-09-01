@@ -6,3 +6,7 @@ The following are what I have learnt about arm assembly using armlite book, manu
   - An immediate value cannot be used with a ldr or str instruction.
 2023.aug.28 mon 1143mf
   - The value in the SP (stack pointer) register typically indicates the next address to pop, just as the PC (program counter) register indicates the next address to execute instruction. So, I wonder the mechanism behind pushing to stack.
+2023.sep.1 fri 1515mf
+  - push and pop should be at the beginning and end of subroutine respectively.
+  - the registers to be push, are the ones to be used in the subroutine, as well as the register that is used to link back from the subroutine.
+  - although lr is the in-built register used by armlite for linking back, armlite assembly programmer can choose any of the general purpose register to use as his link back register.

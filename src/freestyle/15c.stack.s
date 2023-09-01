@@ -1,4 +1,4 @@
-// 2023.sep.1 fri 1223mf
+// 2023.sep.1 fri 1448mf
 
 // NOTE:
 // Pixel Resolution: Mid-res = 64x48 (ie 64 pixels per row, and 48 of such rows from top of the screen to the bottom of the screen)
@@ -20,17 +20,17 @@
 // set the initial pixel position
   mov r1, #32
   mov r2, #24
-  push {r0-r6, r8-r12}
   mov r7, pc
   b drawPixel
   hlt
 
 // draw pixel subroutine
 drawPixel:
+  push {r0-r12}
   lsl r3, r2, #6
   add r4, r1, r3
   lsl r5, r4, #2
   mov r6, #.PixelScreen  // place pixel base address into r6
   str r0, [r6+r5]  // draw pixel pixel on the desired screen location
-  pop {r0-r6, r8-r12}
+  pop {r0-r12}
   mov pc, r7
