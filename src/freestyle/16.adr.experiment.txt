@@ -1,0 +1,10 @@
+// 2023.sep.4 mon 2109mf
+
+  adr r0, myString
+  mov r1, #myString
+  hlt
+
+myString: .asciz 'abcdef'
+
+// RESULT OF EXPERIMENT
+// Earlier today, I learnt about the adr instruction of arm assembly. It was new to me. So I wanted to find out if it exist in armlite. I couldn't find it in the reference manual. So I decided to undertake this experiment. What I observe is that "mov r1, #myString". Also, armlite doesn't recognise the adr instruction.is the armlite equivalent of arm's "adr r1, myString".
