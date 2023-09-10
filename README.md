@@ -26,3 +26,9 @@ MEANING OF MNEMONICS:
 - If you don't know the address of the memory location, but there is a label for it, you can place the address of the memory location inside a register like so,
   mov r0, #nameOfRegister  // armlite
   adr r0, nameOfRegister  // arm
+
+2023.sep.10 sun 2201mf
+- In ARMlite assembly, if you wish to make use of an interrupt, there are three things to do:
+  -- set up interrupt
+  -- write your main program
+  -- write your desired interrupt routine
