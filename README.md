@@ -18,7 +18,7 @@ MEANING OF MNEMONICS:
 - although LR is the in-built register used by armlite for linking back, an armlite assembly programmer can choose any of the general purpose registers to use as his link back register.
 
 2023.sep.5 tue 1858mf
-- A label or symbol is, in my own words, a "nick name" for the address of a memory location. A label is used because it is more memorable than an address (which is actuall a number).
+- A label or symbol is, in my own words, a "nick name" for the address of a memory location. A label is used because it is more memorable than an address (which is actually a number).
 - An anology for label: label is to memory address, as comment is to code. This is a rough or not-so-accurate analogy, but it gives you an idea.
 - When you want to transfer data between a register and a memory address, you use LDR and STR instructions respectively.
 - Sometimes it is important to place the address of a memory location (not the data in the memory location) inside a register. For instance, if 0x0010 is a memory address that you want place in register r0, you can do it in the following ways for armlite and arm respectively,
