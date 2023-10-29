@@ -33,3 +33,8 @@ MEANING OF MNEMONICS:
   -- set up interrupt
   -- write your main program
   -- write your desired interrupt routine
+
+2023.oct.29 sun 1249mf
+- The linker command for macos is: "ld file-name.o -o filename -lSystem -syslibroot `xcrun -sdk macosx --show-sdk-path`"
+  -- "lSystem" means link system library. The System library is a set of system-level libraries that provide various functions and services for macOS programs. By linking with this library, your program can use macOS system functions and features.
+  -- "syslibroot" means 
