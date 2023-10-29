@@ -38,3 +38,4 @@ MEANING OF MNEMONICS:
 - The linker command for macos is: "ld file-name.o -o filename -lSystem -syslibroot `xcrun -sdk macosx --show-sdk-path`"
   -- "lSystem" means link system library. The System library is a set of system-level libraries that provide various functions and services for macOS programs. By linking with this library, your program can use macOS system functions and features.
   -- "syslibroot" means 
+  -- "xcrun" is derived from "xcode" and "run". That is, "xcode run".
