@@ -42,5 +42,5 @@ MEANING OF MNEMONICS:
 
 2023.nov.2 thu 2300mf
 MY PERSONAL IMPROVISED MNEMONIC FOR "ld file-name.o -o filename -lSystem -syslibroot `xcrun -sdk macosx --show-sdk-path`"
-- "Link file-name.o and name it filename. Link system library. System library root. Xcode run sdk for macosx. Show sdk path."
+- "Link file-name.o and name the final file output as filename. Link system library. System library root. Xcode run sdk for macosx. Show sdk path."
 
