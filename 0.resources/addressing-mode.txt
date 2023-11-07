@@ -1,0 +1,5 @@
+addressing mode
+2023.nov.7 tue 2325mf
+
+1. arm addressing mode (web atc): "https://www.cs.uregina.ca/Links/class-info/301/ARM-addressing/lecture.html"
+1. arm64 addressing mode (yt vid): "https://youtu.be/zgkxPdPkxa8"
