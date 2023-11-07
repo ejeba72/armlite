@@ -1,0 +1,9 @@
+video sources
+2023.nov.7 tue 2129mf
+
+1. arm64 addressing mode: "https://youtu.be/zgkxPdPkxa8"
+2. HackVlix m1 arm64: "https://youtu.be/rg6kU42LQcY"
+3. Ben Eater playlists: "https://www.youtube.com/@BenEater/playlists"
+4. arm64 cross-compiling: "https://youtu.be/SoGsKI_nrYU"
+5. compiling and cross-comping: "https://youtu.be/YoyKDZlXCUM?list=PLIz6U0slZNq2TS1zSUjZHgxBjAJL4nb92"
+6. compile from source: "https://youtu.be/BEZAIBgY8mo"

@@ -1,0 +1,6 @@
+PRACTICING AS AND LD COMMANDS
+2023.oct.29 sun 1204mf
+
+as file-name.s -o filename.o
+
+ld filename.o -o filename --lSystem --
