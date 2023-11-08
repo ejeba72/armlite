@@ -20,6 +20,12 @@ SUBSTITION COMMAND
 - "g" means it involves every occurrence of the old-pattern in a line. The default is the 1st occurrence in a line.
 - "c" allows you to confirm each substitution before executing it.
 
+OPENING A FILE WITH ANY COMMANDLINE EDITOR THAT IS ALREADY OPENED WITH CAT
+- "vim !$" instead of typing out the name of the file
+- "nvim !$" for nvim.
+- "nano !$" for nano. 
+- the same approach for other editors.
+
 ***********************************************************************************************
 WHAT I'VE LEARNT FROM BOTH ARMLITE AND ARM64
 2023.jul.8 sat 2138mf (this is the earliest date, i.e. the first time I wrote on this file)
