@@ -1,9 +1,19 @@
-VIM AND ARM LESSONS
+COMMAND LINE, VIM AND ARM LESSONS
 2023.nov.7 tue 1044mf (this is not the earliest date)
 
 DISCLAIMER: I'm not an expert, but a student. The following contents are my perceptions of what I'm learning. They may contain misleading inaccuracies. Consequently, they should be subjected to verification.
 
 I'm including vim to this readme file. I acknowledge that vim and arm are different, but I'm actually learning the two together. I am using vim to write my arm assembly code. Consequently, it is more convenient to write whatever I learn about both of them in the same file. Besides, I'm really fond of both.
+
+2023.nov.14 tue 2144mf
+I will also be including the terminal commands that I learn along the way.
+
+***********************************************************************************************
+TERMINAL COMMANDS THAT I'M LEARNING ALONG THE WAY
+2023.nov14 tue 2148mf
+
+RETURN VALUE COMMAND
+- echo $?
 
 ***********************************************************************************************
 WHAT I'VE LEARNT IN VIM
