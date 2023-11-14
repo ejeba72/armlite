@@ -1,5 +1,8 @@
 VIM AND ARM LESSONS
 2023.nov.7 tue 1044mf (this is not the earliest date)
+
+DISCLAIMER: I'm not an expert, but a student. The following contents are my perceptions of what I'm learning. They may contain misleading inaccuracies. Consequently, they should be subjected to verification.
+
 I'm including vim to this readme file. I acknowledge that vim and arm are different, but I'm actually learning the two together. I am using vim to write my arm assembly code. Consequently, it is more convenient to write whatever I learn about both of them in the same file. Besides, I'm really fond of both.
 
 ***********************************************************************************************
@@ -64,7 +67,7 @@ LDR, STR, MOV, STR
 - When you want to transfer data between a register and a memory address, you use LDR and STR instructions respectively.
 - Sometimes it is important to place the address of a memory location (not the data in the memory location) inside a register. For instance, if 0x0010 is a memory address that you want to place in register r0, you can do it in the following ways for armlite and arm respectively,
   mov r0, #0x0010  ; armlite (will also work for arm)
-  adr r0, 0x0010  ; arm
+  adr r0, 0x0010  ; arm  (?! I am now beginning to doubt if this is a valid arm64 instruction. 2023.nov.12 sun 1549mf)
 - the above "mov" and "adr" mnemonics can be literally interpreted as follows:
   -- mov r0, #0x0010  ; move into register r0 the immediate value 0x0010. That is, since the address is known, it is manually written to r0 as an immediate value.
   -- adr r0, 0x0010  ; move into register r0 the immediate value that is derived from the given address of the memory location you are interested in.
