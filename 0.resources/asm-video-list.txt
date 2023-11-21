@@ -1,0 +1,7 @@
+Assembly Language Video List
+2023.nov.15 wed 1116mf
+
+1. arm architect fundamental: "https://youtu.be/7LqPJGnBPMM"
+2. sooyewguan: "https://www.youtube.com/playlist?list=PLEwlnu3s1GteZ-1VmCv9KryyQrsFmlljG"
+3. kgp talkie: "https://www.youtube.com/playlist?list=PLc2rvfiptPSRVUXgbhJl6KUjd61JP9m6N"
+4. **OLIVE STEM: "https://www.youtube.com/playlist?list=PL2EF13wm-hWAlQe87UB2HV0SVhBXFpXbn"

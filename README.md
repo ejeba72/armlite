@@ -95,8 +95,20 @@ LDR, STR, MOV, STR
   -- write your main program
   -- write your desired interrupt routine
 
+**LINKER PALAVER! :)
 2023.oct.29 sun 1249mf
 2023.nov.5 sun 1730mf (added a few more things I learnt about linkers)
+2023.nov.15 wed 1408mf
+
+- ld filename.o -o filename -lSystem -syslibroot `xcrun -sdk macosx --show-sdk-path` -e _start -arch arm64
+
+- reference: "https://stackoverflow.com/questions/70592614/capture-input-in-assembly-arm-64-bit-mac-os"
+
+- breakdown of the last two components of the above command:
+  -- "-e _start": the -e flag is used to state the label that is used to identify the the entry point to the main code of the program. In this case the label is "_start". I guess the meaning of -e should be "entry point".
+  -- "-arch arm64": the -arch flag is used to indicate the architecture the program is written for.
+
+- various ways of finding sdk path
 (1) The linker command for macos is: 
     "ld filename.o -o filename -lSystem -syslibroot `xcrun -sdk macosx --show-sdk-path`"
 
@@ -121,3 +133,9 @@ MY PERSONAL IMPROVISED MNEMONIC FOR "ld filename.o -o filename -lSystem -syslibr
 2023.nov.6 mon 1943mf
 OBJECT DUMP COMMAND
 - objdump with the -d flag (d for disassembly) can be used to convert an object file to assembly language.
+
+2023.nov.15 wed 1142mf
+ASSEMBLY DIRECTIVES
+- .ascii
+- .asciz
+- .string -- it is more or less an alias for .asciz
