@@ -9,6 +9,13 @@ I'm including vim to this readme file. I acknowledge that vim and arm are differ
 I will also be including the terminal commands that I learn along the way.
 
 ***********************************************************************************************
+RESOURCES
+2023.nov26 sun 2231mf
+
+ASCII LOOKUP TABLE FROM THE COMMANDLINE
+- "man ascii" is used to check for the value of ascii characters
+
+***********************************************************************************************
 TERMINAL COMMANDS THAT I'M LEARNING ALONG THE WAY
 2023.nov14 tue 2148mf
 
