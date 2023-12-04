@@ -27,11 +27,12 @@ WHAT I'VE LEARNT IN VIM
 2023.nov.7 tue 1054mf
 
 SEARCH FOR PATTERNS
-- ":/pattern"
+- ":/pattern" or "/pattern" is used to search for the next occurrence.
+- ":?pattern" or "?pattern" is used to search for the previous occurrence.
 
-NAVIGATE THROUG SEARCH PATTERNS
-- n for next.
-- N for previous.
+NAVIGATE THROUGH SEARCH PATTERNS
+- "n" for forward navigation.
+- "N" for reverse navigation.
 
 SUBSTITION COMMAND
 - ":%s/old-pattern/new-pattern/gc"
@@ -45,6 +46,27 @@ OPENING A FILE WITH ANY COMMANDLINE EDITOR THAT IS ALREADY OPENED WITH CAT
 - "nvim !$" for nvim.
 - "nano !$" for nano. 
 - the same approach for other editors.
+
+NAVIGATE THROUGH A LINE
+In Vim, you can move the cursor within a line using various keybindings. Here are some of the keybindings for moving the cursor within a line:
+- h is used to move the cursor one character to the left.
+- l is used to move the cursor one character to the right.
+- w is used to move the cursor forward one word.
+- b is used to move the cursor backward one word.
+- 0 is used to move the cursor to the beginning of the line.
+- ^ is used to move the cursor to the first non-blank character of the line.
+- $ is used to move the cursor to the end of the line.
+- f{char} is used to move the cursor to the next occurrence of {char} on the current line.
+- F{char} is used to move the cursor to the previous occurrence of {char} on the current line.
+- t{char} is used to move the cursor to just before the next occurrence of {char} on the current line.
+- T{char} is used to move the cursor to just after the previous occurrence of {char} on the current line.
+- / is used in command mode to search for the next occurrences (in every line) of string. Use n and N to navigate.
+- ? is used in command mode to search for the previous occurrences (in every line) of string. Use n and N to navigate.
+- * is used to search for the next occurrences (in every line) of a string under or nearest to the cursor.
+- # is used to search for the previous occurrences (in every line) of a string under or nearest to the cursor.
+NOTE: You can prefix many of these commands with a number to repeat the movement that many times. For example,
+- 3w will move the cursor forward three words.
+- 3f{char} will move the cursor to the third occurrence of {char} on the current
 
 ***********************************************************************************************
 WHAT I'VE LEARNT FROM BOTH ARMLITE AND ARM64
