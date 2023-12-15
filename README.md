@@ -1,4 +1,4 @@
-COMMAND LINE, VIM AND ARM LESSONS
+COMMANDLINE, VIM AND ARM LESSONS
 2023.nov.7 tue 1044mf (this is not the earliest date)
 
 DISCLAIMER: I'm not an expert, but a student. The following contents are my perceptions of what I'm learning. They may contain misleading inaccuracies. Consequently, they should be subjected to verification.
@@ -8,6 +8,8 @@ I'm including vim to this readme file. I acknowledge that vim and arm are differ
 2023.nov.14 tue 2144mf
 I will also be including the terminal commands that I learn along the way.
 
+
+
 ***********************************************************************************************
 RESOURCES
 2023.nov26 sun 2231mf
@@ -15,12 +17,22 @@ RESOURCES
 ASCII LOOKUP TABLE FROM THE COMMANDLINE
 - "man ascii" is used to check for the value of ascii characters
 
+
+
 ***********************************************************************************************
 TERMINAL COMMANDS THAT I'M LEARNING ALONG THE WAY
 2023.nov14 tue 2148mf
 
 RETURN VALUE COMMAND
 - echo $?
+
+USING LEFT OPTIONS KEY AS META KEY IN ITERM2
+* Go to Settings >> Profiles >> Keys >> General >> Left Option key >> Esc+  (i.e. check the "Esc+" option. NOTE: checking the "Meta" option won't work).
+
+USING LEFT OPTIONS KEY AS META KEY IN "TERMINAL" APP
+* Go to Edit >> "Use Option as Meta key"  (or press "command+option+O" to toggle between Normal Option Key function and Meta key funtion for the Option key).
+
+
 
 ***********************************************************************************************
 WHAT I'VE LEARNT IN VIM
@@ -67,6 +79,8 @@ In Vim, you can move the cursor within a line using various keybindings. Here ar
 NOTE: You can prefix many of these commands with a number to repeat the movement that many times. For example,
 - 3w will move the cursor forward three words.
 - 3f{char} will move the cursor to the third occurrence of {char} on the current
+
+
 
 ***********************************************************************************************
 WHAT I'VE LEARNT FROM BOTH ARMLITE AND ARM64
