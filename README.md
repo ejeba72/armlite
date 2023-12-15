@@ -27,10 +27,10 @@ RETURN VALUE COMMAND
 - echo $?
 
 USING LEFT OPTIONS KEY AS META KEY IN ITERM2
-* Go to Settings >> Profiles >> Keys >> General >> Left Option key >> Esc+  (i.e. check the "Esc+" option. NOTE: checking the "Meta" option won't work).
+- Go to Settings >> Profiles >> Keys >> General >> Left Option key >> Esc+  (i.e. check the "Esc+" option. NOTE: checking the "Meta" option won't work).
 
 USING LEFT OPTIONS KEY AS META KEY IN "TERMINAL" APP
-* Go to Edit >> "Use Option as Meta key"  (or press "command+option+O" to toggle between Normal Option Key function and Meta key funtion for the Option key).
+- Go to Edit >> "Use Option as Meta key"  (or press "command+option+O" to toggle between Normal Option Key function and Meta key funtion for the Option key).
 
 
 
