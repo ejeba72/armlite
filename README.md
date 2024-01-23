@@ -26,7 +26,7 @@ TERMINAL COMMANDS THAT I'M LEARNING ALONG THE WAY
 RETURN VALUE COMMAND
 - echo $?
 
-USING LEFT OPTIONS KEY AS META KEY IN ITERM2
+USING LEFT OPTIONS KEY AS META KEY IN "ITERM2" APP
 - Go to Settings >> Profiles >> Keys >> General >> Left Option key >> Esc+  (i.e. check the "Esc+" option. NOTE: checking the "Meta" option won't work).
 
 USING LEFT OPTIONS KEY AS META KEY IN "TERMINAL" APP
@@ -37,6 +37,10 @@ USING LEFT OPTIONS KEY AS META KEY IN "TERMINAL" APP
 ***********************************************************************************************
 WHAT I'VE LEARNT IN VIM
 2023.nov.7 tue 1054mf
+"Learning to use vim is like learning to touch-type. Both require muscle memory, and both are fast and efficient!"
+-- Emmanuel Eni 2023.dec18 mon ~1800mf
+"If you enjoy touch typing, vim could be right for you! :)"
+-- Emmanuel Eni 2023.dec18 mon 1821mf
 
 SEARCH FOR PATTERNS
 - ":/pattern" or "/pattern" is used to search for the next occurrence.
